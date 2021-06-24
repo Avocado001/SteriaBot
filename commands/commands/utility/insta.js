@@ -4,7 +4,7 @@ module.exports = {
     commands: ['facebook', 'fb', 'page'],
     callback: async (message) => {
         const testEmbed = new Discord.MessageEmbed()
-            .setTitle('Just Twaisu')
+            .setTitle('Steria')
             .setURL('https://www.facebook.com/steriaplays')
             .setAuthor('Steria' , 'https://scontent.fmnl8-2.fna.fbcdn.net/v/t1.6435-9/187845552_167251435403889_764366581181602099_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=bhoIqujwveAAX-_W-Cn&tn=8c86R4RZ0HvKHvY_&_nc_ht=scontent.fmnl8-2.fna&oh=9be4d5da946295ae95bcb31451656b96&oe=60D97EA1')
             .setDescription('Please Like and Follow the Page!')
