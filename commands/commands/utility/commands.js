@@ -16,7 +16,7 @@ module.exports = {
             .setFooter("Bot Made By Avocado#1747", "https://64.media.tumblr.com/674fec8a19332cdf495a517bf912bab4/8cbd38afb32ebf1a-1c/s540x810/8f112de30862a47cd0a2a164f1dadd735e25c260.gifv")
             .setThumbnail('https://i.https://cdn.discordapp.com/icons/818533184517308478/e0ea087ba5980c1007eafa1708e21638.webp.com/Zmr7TLZ.png')
             .setURL('https://www.facebook.com/steriaplays')
-        if (content.includes("help") || content.includes("commands")) return message.channel.send(menu)
+        return message.channel.send(menu)
 
         const moderation = new Discord.MessageEmbed()
             .setTitle('Moderation')
