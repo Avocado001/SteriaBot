@@ -8,7 +8,7 @@ module.exports = {
         const menu = new Discord.MessageEmbed()
             .setTitle('Help Menu')
             .setDescription('Welcome to Steria Secretbase Discord Server!')
-            .addField('Help Categories', '`Fun`, `Utility`, `Anime`, `Music`, `Valorant`, `Moderation`, `Dev`, `NSFW`, `Setup`', true)
+            .addField('Help Categories', '`Fun`, `Utility`, `Anime`, `Music`, `Valorant`, `Moderation`, `Dev`, `Setup`', true)
             .addField('Usage', '`(-help [category])`', true)
             .setColor('RANDOM')
             .setFooter("Bot Made By Avocado#1747", "https://64.media.tumblr.com/674fec8a19332cdf495a517bf912bab4/8cbd38afb32ebf1a-1c/s540x810/8f112de30862a47cd0a2a164f1dadd735e25c260.gifv")
@@ -52,13 +52,6 @@ module.exports = {
             .addField('Chat', 'Chats with the bot\n`-chat [message]`', true)
             .addField('Snake', 'Creates a snake game\n`-snake`', true)
         if (content.includes("fun")) return message.channel.send(fun)
-
-        const nsfw = new Discord.MessageEmbed()
-            .setTitle('NSFW')
-            .setDescription('This command will only work in channels with nsfw enabled.')
-            .addField('NSFW Categories', '`hass`, `hmidriff`, `pgif`, `4k`, `hentai`, `hneko`, `hkitsune`, `anal`, `hanal`, `gonewild`, `ass`, `pussy`, `thigh`, `hthigh`, `paizuri`, `tentacle`, `boobs`, `hboobs`', true)
-            .addField('NSFW Command', 'Sends an nsfw image\n`-nsfw [category]`', true)
-        if (content.includes("nsfw")) return message.channel.send(nsfw)
 
         const utility = new Discord.MessageEmbed()
             .setTitle('Utility')
