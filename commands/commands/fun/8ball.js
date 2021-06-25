@@ -33,14 +33,14 @@ module.exports = {
         .setAuthor(message.member.displayName, message.author.displayAvatarURL({ dynamic: true }))
         .setTitle('🎱 8Ball 🎱')
         .setDescription(`${answers[Math.floor(Math.random() * answers.length)]}`)
-            .setFooter("Bot Made By Avocado#1747", "https://images-ext-1.discordapp.net/external/ra9fSXcz1iONdUpChGGSoOsUEjAZqo2WiUW2j9jepfI/https/64.media.tumblr.com/408500030215aebc97c6eeb1616e857a/59803ea79bf11ead-25/s500x750/4f5d3b13a1777d9f5f32d287087a55d1a0d8f38d.gif")
+            .setFooter("Bot Made By Avocado#1747", "https://media.discordapp.net/attachments/857832409499172904/857897273371525130/ny001.gif")
 
         const error = new Discord.MessageEmbed()
         .setAuthor(message.member.displayName, message.author.displayAvatarURL({ dynamic: true }))
         .setTitle('🎱 8Ball 🎱')
         .setDescription(`Please provide a question.`)
         .setColor('RED')
-            .setFooter("Bot Made By Avocado#1747", "https://images-ext-1.discordapp.net/external/ra9fSXcz1iONdUpChGGSoOsUEjAZqo2WiUW2j9jepfI/https/64.media.tumblr.com/408500030215aebc97c6eeb1616e857a/59803ea79bf11ead-25/s500x750/4f5d3b13a1777d9f5f32d287087a55d1a0d8f38d.gif")
+            .setFooter("Bot Made By Avocado#1747", "https://media.discordapp.net/attachments/857832409499172904/857897273371525130/ny001.gif")
 
         if (!args) return message.channel.send(error)
 
