@@ -25,13 +25,13 @@ module.exports = {
 
         message.delete();
 
-        const ticketLogsChannel = message.guild.channels.cache.get('735356920583684106');
+        const ticketLogsChannel = message.guild.channels.cache.get('857896775897055303');
 
         const ticketEmbed = new Discord.MessageEmbed()
             .setTitle('Ticket Log')
             .setThumbnail(message.author.displayAvatarURL())
             .setColor('RANDOM')
-            .setFooter("Bot Made By OblivionGhoul#5842", "https://i.imgur.com/Ivtf7GP.png")
+            .setFooter("Bot Made By Avocado#1747", "https://images-ext-1.discordapp.net/external/ra9fSXcz1iONdUpChGGSoOsUEjAZqo2WiUW2j9jepfI/https/64.media.tumblr.com/408500030215aebc97c6eeb1616e857a/59803ea79bf11ead-25/s500x750/4f5d3b13a1777d9f5f32d287087a55d1a0d8f38d.gif")
             .addFields(
                 {
                     name: 'Type:',
