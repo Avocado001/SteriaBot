@@ -12,7 +12,7 @@ module.exports = {
             .addField('Usage', '`(-help [category])`', true)
             .setColor('RANDOM')
             .setFooter("Bot Made By Avocado#1747", "https://64.media.tumblr.com/674fec8a19332cdf495a517bf912bab4/8cbd38afb32ebf1a-1c/s540x810/8f112de30862a47cd0a2a164f1dadd735e25c260.gifv")
-            .setThumbnail('https://i.https://cdn.discordapp.com/icons/818533184517308478/e0ea087ba5980c1007eafa1708e21638.webp.com/Zmr7TLZ.png')
+            .setThumbnail('https://images-ext-1.discordapp.net/external/v5Rm3_9FMhW5lI7XIF8FeRtwBRY06ibz67V05Rs6T1A/%3F_nc_cat%3D111%26ccb%3D1-3%26_nc_sid%3De3f864%26_nc_ohc%3Do575k65aYxkAX_tAMK2%26tn%3D8c86R4RZ0HvKHvY_%26_nc_ht%3Dscontent.fmnl8-2.fna%26oh%3D7dc0dcbb2ae4ffa2884a06a41a2aff2c%26oe%3D60D9F942/https/scontent.fmnl8-2.fna.fbcdn.net/v/t1.6435-9/187459167_169230948539271_2601612494169101438_n.jpg?width=945&height=354')
             .setURL('https://www.facebook.com/steriaplays')
         if (content.includes("help") || content.includes("commands")) return message.channel.send(menu)
 
